@@ -90,25 +90,7 @@ The skill enforces this response structure:
 
 ## Quick start
 
-### Option A: Use as a local skill folder
-
-1. Clone this repository.
-2. Copy `owasp-ai-appsec-playbook/` into your local skills directory for your agent runtime.
-3. Invoke with `$owasp-ai-appsec-playbook` in your prompt.
-
-### Option B: Use packaged zip (Claude-style distribution)
-
-Create a zip package from the repository root:
-
-```bash
-zip -r owasp-ai-appsec-playbook.zip owasp-ai-appsec-playbook
-```
-
-Then import/install the zip using your Claude Code skill flow.
-
-### Option C: URL-based usage (OpenAI/Codex ecosystems)
-
-Publish this repository publicly and reference the skill folder URL in your skill installation flow where supported.
+### Option A: Install via skills.sh (recommended)
 
 Recommended install command for this repository:
 
@@ -121,6 +103,22 @@ Equivalent GitHub URL form:
 ```bash
 npx skills add https://github.com/lubeorg/owasp-ai-appsec-playbook --skill owasp-ai-appsec-playbook -g -y
 ```
+
+### Option B: Use as a local skill folder
+
+1. Clone this repository.
+2. Copy `owasp-ai-appsec-playbook/` into your local skills directory for your agent runtime.
+3. Invoke with `$owasp-ai-appsec-playbook` in your prompt.
+
+### Option C: Use packaged zip (Claude-style distribution)
+
+Create a zip package from the repository root:
+
+```bash
+zip -r owasp-ai-appsec-playbook.zip owasp-ai-appsec-playbook
+```
+
+Then import/install the zip using your Claude Code skill flow.
 
 ## Example prompts
 
