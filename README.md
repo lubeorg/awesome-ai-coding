@@ -95,13 +95,13 @@ The skill enforces this response structure:
 Recommended install command for this repository:
 
 ```bash
-npx skills add lubeorg/owasp-ai-appsec-playbook --skill owasp-ai-appsec-playbook -g -y
+npx skills add lubeorg/skills-owasp-ai-appsec-playbook --skill owasp-ai-appsec-playbook -g -y
 ```
 
 Equivalent GitHub URL form:
 
 ```bash
-npx skills add https://github.com/lubeorg/owasp-ai-appsec-playbook --skill owasp-ai-appsec-playbook -g -y
+npx skills add https://github.com/lubeorg/skills-owasp-ai-appsec-playbook --skill owasp-ai-appsec-playbook -g -y
 ```
 
 ### Option B: Use as a local skill folder
