@@ -110,6 +110,18 @@ Then import/install the zip using your Claude Code skill flow.
 
 Publish this repository publicly and reference the skill folder URL in your skill installation flow where supported.
 
+Recommended install command for this repository:
+
+```bash
+npx skills add lubeorg/owasp-ai-appsec-playbook --skill owasp-ai-appsec-playbook -g -y
+```
+
+Equivalent GitHub URL form:
+
+```bash
+npx skills add https://github.com/lubeorg/owasp-ai-appsec-playbook --skill owasp-ai-appsec-playbook -g -y
+```
+
 ## Example prompts
 
 ### Traditional app review
