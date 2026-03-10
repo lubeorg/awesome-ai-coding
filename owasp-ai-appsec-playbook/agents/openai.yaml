@@ -1,0 +1,4 @@
+interface:
+  display_name: "OWASP AI AppSec Playbook"
+  short_description: "Run OWASP + LLM security reviews with concrete fixes"
+  default_prompt: "Use $owasp-ai-appsec-playbook to assess this system against OWASP Top 10:2025 and LLM Top 10:2025, then provide prioritized findings, concrete remediation steps, and verification tests."
