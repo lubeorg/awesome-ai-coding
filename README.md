@@ -27,7 +27,7 @@ Every review flow is designed to produce:
 ## Repository contents
 
 ```text
-owasp-ai-appsec-playbook/
+skills/owasp-ai-appsec-playbook/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
@@ -107,7 +107,7 @@ npx skills add https://github.com/lubeorg/skills-owasp-ai-appsec-playbook --skil
 ### Option B: Use as a local skill folder
 
 1. Clone this repository.
-2. Copy `owasp-ai-appsec-playbook/` into your local skills directory for your agent runtime.
+2. Copy `skills/owasp-ai-appsec-playbook/` into your local skills directory for your agent runtime.
 3. Invoke with `$owasp-ai-appsec-playbook` in your prompt.
 
 ### Option C: Use packaged zip (Claude-style distribution)
@@ -115,7 +115,7 @@ npx skills add https://github.com/lubeorg/skills-owasp-ai-appsec-playbook --skil
 Create a zip package from the repository root:
 
 ```bash
-zip -r owasp-ai-appsec-playbook.zip owasp-ai-appsec-playbook
+zip -r owasp-ai-appsec-playbook.zip skills/owasp-ai-appsec-playbook
 ```
 
 Then import/install the zip using your Claude Code skill flow.
@@ -142,15 +142,15 @@ Use $owasp-ai-appsec-playbook to assess our React frontend + NestJS API + agenti
 
 ## Reference guide map
 
-- `references/owasp-top-10-2025-review-guide.md`
+- `skills/owasp-ai-appsec-playbook/references/owasp-top-10-2025-review-guide.md`
   - Traditional OWASP category-by-category review cues, exploit paths, mitigations, and verification checks.
-- `references/owasp-llm-top-10-2025-review-guide.md`
+- `skills/owasp-ai-appsec-playbook/references/owasp-llm-top-10-2025-review-guide.md`
   - LLM risk category guidance, red-team scenarios, and AI-specific controls.
-- `references/remediation-playbooks.md`
+- `skills/owasp-ai-appsec-playbook/references/remediation-playbooks.md`
   - Prescriptive remediation flows for web/API, RAG, and agentic systems.
-- `references/security-improvement-roadmaps.md`
+- `skills/owasp-ai-appsec-playbook/references/security-improvement-roadmaps.md`
   - Security maturity model, 30/60/90+ sequencing, and KPI framework.
-- `references/ts-node-react-secure-implementations.md`
+- `skills/owasp-ai-appsec-playbook/references/ts-node-react-secure-implementations.md`
   - Concrete TypeScript/Node/React implementation patterns and anti-patterns.
 
 ## Contribution guidelines
@@ -165,7 +165,7 @@ Contributions should preserve the core contract of this skill:
 
 Recommended update workflow:
 
-1. Update content in `owasp-ai-appsec-playbook/`.
+1. Update content in `skills/owasp-ai-appsec-playbook/`.
 2. Validate frontmatter and metadata consistency.
 3. Test with at least one traditional, one AI-only, and one hybrid prompt.
 4. Confirm output contract sections are all present.
